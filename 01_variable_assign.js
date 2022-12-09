@@ -11,14 +11,13 @@ console.log(myFullName);
 var myLove="I Love only JS";
 console.log(myLove);
 
-var firstName, lastName, age, address, pin_code, gender, is_married;
-firstName="Hitesh";
-lastName="Ghadage";
-age="27";
-address="Dehuroad";
-pin_code="412101";
-gender="male";
-is_married="No";
+var firstName="Hitesh";
+var lastName="Ghadage";
+var age= 27;
+var address="Dehuroad";
+var pin_code= 412101;
+var gender="male";
+var is_married= "Unmarried";
 console.log(firstName, lastName, age, address, pin_code, gender, is_married);
 
 
