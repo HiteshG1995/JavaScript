@@ -6,7 +6,7 @@ console.log(firstName,lastName);
 console.log("---------After Swap----------");
 var temp=firstName;
 firstName=lastName;
-firstName=temp;
+lastName=temp;
 console.log(firstName,lastName);
 console.log('============================================================')
 console.log("Part 2");
