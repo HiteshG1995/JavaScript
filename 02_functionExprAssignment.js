@@ -44,8 +44,8 @@ swapArgs(1000,2000);
 
 console.log("---------------------------------------Find character and index position using function expression--------------------------")
 
-var stringCharAndIndx = function(){
-    var sentence =  "JavaScript the most popular language";
+var stringCharAndIndx = function(sentence){
+    
     var lengthTotal = sentence.length;
     var squareOfLength = sentence.length*sentence.length;
 
@@ -59,5 +59,5 @@ var stringCharAndIndx = function(){
     console.log("Square of length of given string is:", squareOfLength);
 
 }
-stringCharAndIndx();
+stringCharAndIndx("JavaScript the most popular language");
 console.log("----------------------------------------------------------------------------------------------------------------------------")
