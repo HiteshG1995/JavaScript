@@ -110,10 +110,10 @@ if (isAvailable1==true) {
 
 console.log(`\n---------------------------------------------------------------------\n`);
 
-console.log(`#11 Check number 115 is available in Array`);
+console.log(`#11 Check number 23 is available in Array`);
 var arrayNumber2 = [20,31,40,25,23,11,29,9,60,2,11];
 let isAvailable2 = arrayNumber2.includes(23);
-if (isAvailable1==true) {
+if (isAvailable2==true) {
     console.log(`23 is Available in Array`);
 }else{
     console.log(`23 is not Available in Array`);

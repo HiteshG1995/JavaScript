@@ -56,7 +56,7 @@ console.log(`#7 Log the element starting from 1 to 4`);
 console.log(`Before condition : "${fruits_seasonal1}"`);
 let sliceRes = fruits_seasonal1.slice(1,5)
 console.log(`After logging element from 1 to 4: "${sliceRes}"`);
-console.log(fruits_seasonal1);
+console.log(sliceRes);
 
 console.log(`\n---------------------------------------------------------------------\n`);
 
@@ -64,4 +64,4 @@ console.log(`#8 Displaying last three element using length`);
 console.log(`Before Displaying : "${fruits_seasonal1}"`);
 let lengthProp = fruits_seasonal1.splice(fruits_seasonal1.length-3)
 console.log(`Displaying last three element using length: "${lengthProp}"`)
-console.log(fruits_seasonal1);
+console.log(lengthProp);
