@@ -21,14 +21,12 @@ console.log(yesBank);
 console.log(sbiBank);
 console.log(mahBank);
 console.log(axisBank);
-
 console.log(``);
-
 Bank.prototype.openTime = "9 AM IST"
 Bank.prototype.closeTime = "6 PM IST"
 console.log(`3) Add new data member Open: ${Bank.prototype.openTime}`);
 console.log(``);
-console.log(`4) Add new data member Open: ${Bank.prototype.closeTime}`);
+console.log(`4) Add new data member Close: ${Bank.prototype.closeTime}`);
 console.log(``);
 console.log(`5) log meaningful message for object SBI Bank`);
 console.log(`   Open time of SBI bank is "${sbiBank.openTime}" and close time is "${sbiBank.closeTime}"`);
