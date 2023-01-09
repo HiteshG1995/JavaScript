@@ -1,0 +1,39 @@
+console.log(`******************************* Assignment (01) ****************************************`)
+
+console.log(`\n1) log message on console inside arrow function with no args and no return value.\n`);
+
+let message = () => {
+
+    console.log("   Good Morning, Today is Monday");  // Proper Arrow function
+}
+message()
+
+let message1 = () => console.log("   Good Morning, Today is Monday"); message() // Arrow function Shorthand
+
+console.log(`\n2) Pass 3 arguments with no return value and perform multiplication.\n`);
+
+let multiplication = (n1, n2, n3=1) => {
+
+    let multResult = n1 * n2 * n3
+    console.log(`   Multiplication of ${n1} * ${n2} * ${n3} = ${multResult}`);
+}
+console.log(`   **Multipliction of 5,5,2 and pass through arguments**`);
+multiplication(5,5,2)
+console.log(``);
+console.log(`   **Put argument 3 as default value 1 and pass 10,4**`);
+multiplication(10,4)
+
+console.log(`\n3) Perform addation by passing 5 parameters with return value and log on console.\n`);
+
+let addVal = (val1, val2, val3, val4, val5) => {
+
+    let addResult = val1 + val2 + val3 + val4 + val5;
+    return addResult;
+}
+let result = addVal(100, 100, 200, 349, 756)
+let result2 = addVal("I am ", "Learning ", "ES6 ", "features ", "in depth")
+console.log("   The addation of numbers are:",result);        // Accept
+console.log("   The addation of words are:",result2);
+//console.log(`${result}`);   // Accept
+//console.log(`${val1}`);   //  Never except argument outside arrow function
+// console.log(`Addation of ${val1} + ${val2} + ${val3} + ${val4} + ${val5} = ${result}`);  // Not allowed if we pass arguments with result
